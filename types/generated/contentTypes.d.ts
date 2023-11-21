@@ -702,6 +702,7 @@ export interface ApiEventEvent extends Schema.CollectionType {
     tags: Attribute.Relation<'api::event.event', 'manyToMany', 'api::tag.tag'>;
     description: Attribute.RichText & Attribute.Required;
     cover: Attribute.Media;
+    where: Attribute.String & Attribute.Required;
     createdAt: Attribute.DateTime;
     updatedAt: Attribute.DateTime;
     publishedAt: Attribute.DateTime;

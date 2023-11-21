@@ -48,11 +48,16 @@
       "required": true
     },
     "cover": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
+    },
+    "where": {
+      "type": "string",
+      "required": true
     }
   }
 }
