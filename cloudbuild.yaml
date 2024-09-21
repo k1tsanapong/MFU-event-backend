@@ -64,7 +64,7 @@ images:
  
 substitutions:
   _REGISTRY: 'docker-repo'
-  _REPO: 'MFU-event-backend'
+  _REPO: 'mfu-event-backend'
   _REGION: 'us-central1'
   _REGION_CLOUD_RUN: 'asia-southeast1'
   _PORT: '1337'
